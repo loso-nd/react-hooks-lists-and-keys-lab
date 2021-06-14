@@ -14,7 +14,7 @@ Here is an image of what we want once we are finished:
 
 ![demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-lists-and-keys-lab/demo.png)
 
-...and here is a tree view of our component parent-child structure:
+...and here is a tree view of our component parent-child structure: 
 
 ```txt
 └── App
