@@ -4,11 +4,14 @@ import user from "../data/user";
 function NavBar() {
   const links = ["home", "about", "projects"];
 
+  const anchor = links.map(link => (
+    <a key={link} href={"#" + link}>{link}</a>
+  ))
+
   return <nav>
-            <a key={user}  href="#home">Home</a>
-            <a key={user}  href="#about">About</a>
-            <a key={user}  href="#projects">Projects</a>
+            {anchor}
           </nav>
 }
 
 export default NavBar;
+
